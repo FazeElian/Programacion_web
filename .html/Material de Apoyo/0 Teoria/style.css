@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: black;
+    display: flex;
+}
+.uno{
+    background: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.dos{
+    background: yellow;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
