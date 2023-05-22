@@ -1,0 +1,6 @@
+/* Ahora vamos a editar la imagen */
+img{
+    width: 500px; /* Le ponemos un ancho */
+    height: 300px; /* Le ponemos una altura */
+    border: 2px black solid; /* Le ponemos borde sólido con un grosor de 2px de color negro */
+}
