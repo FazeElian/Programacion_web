@@ -1,0 +1,17 @@
+/* Ahora vamos a editar la hoja de estilos: */
+.contenedor{ /* Ponemos un punto al principio seguido del nombre de la clase del conenedor */
+    background-color: aqua; /* Color de fondo */
+}
+
+/* También podemos editar el contenido de ese contenedor: */
+.contenedor h1{ /* Declaramos que está dentro del contenedor y ponemos que etiqueta tiene */
+    color: blue; /* Color de texto h1*/
+}
+
+.contenedor h2{ /* Edición css h2 */
+    color: red;
+}
+
+.contenedor p{ /* Edición css p - párrafo */
+    color: blueviolet;
+}
