@@ -1,0 +1,20 @@
+/* Ahora vamos a editar la hoja de estilos: */
+/* En este archivo podemos editar características al contenido, como por ejemplo el color, altura, tamaño, sombra, borde, etc */
+
+/* Vamos a editar el h1 */
+h1{
+    color: red; /* Le cambiamos el color al texto */
+    font-size: 50px; /* Le cambiamos el tamaño del texto en px */
+}
+
+/* Vamos a editar el h2 */
+h2{
+    color: blue; /* Le cambiamos el color al texto */
+    font-size: 30px; /* Le cambiamos el tamaño del texto en px */
+}
+
+/* Vamos a editar el p - párrafo */
+p{
+    color: gray; /* Le cambiamos el color al texto */
+    font-size: 20px; /* Le cambiamos el tamaño del texto en px */
+}
