@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="../../assets/css/Index.css">
+    <link rel="stylesheet" href="../../assets/css/Login.css">
+    <script defer src="../../assets/js/index.js"></script>
+    <link rel="shortcut icon" href="../../assets/img/user-icon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Encabezado - header -->
+    <header class="encabezado">
+        <nav class="nav_encabezado">  
+            <button class="icono-inicio">
+                <img src="../../assets/img/home-icon.png">
+            </button>      
+
+            <ul class="ul-menu">
+                <li class="nav-menu-item nav_link nav-menu-link"><a href="../Index/index.html">Inicio</a></li>
+                <li class="nav-menu-item nav_link nav-menu-link"><a href="#">Portafolio</a></li>
+                <li class="nav-menu-item nav_link nav-menu-link"><a href="#">Repositorios GitHub</a></li>
+            </ul>
+        </nav>
+
+        <nav class="nav-registro">
+            <ul class="ul-registro">
+                <li class="nav-menu-item-registro nav_link nav-menu-link"><a href="../Login/Login.html">Iniciar sesión</a></li>
+                <li class="nav-menu-item-registro nav_link nav-menu-link"><a href="../Register/Register.html">Registrarse</a></li>
+            </ul>   
+
+            <button class="icono-usuario">
+                <img src="../../assets/img/user-icon.png">
+            </button>  
+        </nav>   
+    </header>
+    
+    <!-- Formulario Login -->
+    <form class="login" action="" id="cont-login">
+        <li class="li-login">Iniciar Sesión</li>
+
+        <li class="li-usuario">Nombre de Usuario</li>
+        <input type="text" name="usuario" id="usuario" placeholder="Nombre de Usuario">
+
+        <li class="li-correo"> Correo Electrónico</li>
+        <input type="email" name="correo" id="correo" placeholder="Correo Electrónico">
+
+        <li class="li-contraseña">Contraseña</li>
+        <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña">
+
+        <button type="submit" class="bott-login"> <h2>Iniciar sesión</h2></button>
+    </form>
+</body>
+</html>

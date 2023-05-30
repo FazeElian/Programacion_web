@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Formulario Login*/    
+.login{
+    position: fixed;
+    width: 50%;
+    height: 550px;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 40px;
+    list-style: none;
+    left: 25%;
+}
+
+    /*Iniciar sesión*/
+    .li-login{
+        color: black;
+        font-size: 50px;
+        font-family: "Cambria";
+        margin: 50px;
+        margin-top: 70px;
+    }
+
+    /*Usuario*/
+    .li-usuario{
+        color: black;
+        font-size: 20px;
+        font-family: "Cambria";
+        margin-left: 50px;
+        margin-top: -30px;  
+    }
+
+    #usuario{
+        color: black;
+        width: 55%;
+        height: 25px;
+        font-size: 15px;
+        font-family: "Cambria";
+        margin-left: 50px;
+        margin-top: 10px;  
+    }
+
+    /*Correo Electrónico*/
+    .li-correo{
+        color: black;
+        font-size: 20px;
+        font-family: "Cambria";
+        margin-left: 50px;
+        margin-top: 30px;  
+    }
+
+    #correo{
+        color: black;
+        width: 55%;
+        height: 25px;
+        font-size: 15px;
+        font-family: "Cambria";
+        margin-left: 50px;
+        margin-top: 10px;  
+    }
+
+    /*Contraseña*/
+    .li-contraseña{
+        color: black;
+        font-size: 20px;
+        font-family: "Cambria";
+        margin-left: 50px;
+        margin-top: 30px;  
+    }
+
+    #contraseña{
+        color: black;
+        width: 55%;
+        height: 25px;
+        font-size: 15px;
+        font-family: "Cambria";
+        margin-left: 50px;
+        margin-top: 10px;  
+    }
+
+    /*Botón Login*/
+    .bott-login{
+        display: flex;
+        width: 200px;
+        height: 30px;
+        background-color: blue;
+        border: 2px solid black;
+        margin-top: 40px;
+        margin: 50px;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .bott-login h2{
+        color: white;
+        font-size: 20px;
+        font-family: "Cambria";
+    }
+
+/*@Media*/
+@media(max-width:1024px){
+    .login{
+        width: 60%;
+        height: auto;
+        margin-top: 120px;
+        left: 20%;
+    }
+
+        /*Iniciar sesión*/
+        .li-login{
+            color: black;
+            font-size: 30px;
+            font-family: "Cambria";
+            margin: 50px;
+            margin-top: 70px;
+        }
+    
+        /*Usuario*/
+        .li-usuario{
+            color: black;
+            font-size: 16px;
+            font-family: "Cambria";
+            margin-left: 50px;
+            margin-top: -30px;  
+        }
+    
+        #usuario{
+            color: black;
+            width: 50%;
+            height: 20px;
+            font-size: 12px;
+            font-family: "Cambria";
+            margin-left: 50px;
+            margin-top: 10px;  
+        }
+    
+        /*Correo Electrónico*/
+        .li-correo{
+            color: black;
+            font-size: 16px;
+            font-family: "Cambria";
+            margin-left: 50px;
+            margin-top: 30px;  
+        }
+    
+        #correo{
+            color: black;
+            width: 50%;
+            height: 20px;
+            font-size: 12px;
+            font-family: "Cambria";
+            margin-left: 50px;
+            margin-top: 10px;  
+        }
+    
+        /*Contraseña*/
+        .li-contraseña{
+            color: black;
+            font-size: 20px;
+            font-family: "Cambria";
+            margin-left: 50px;
+            margin-top: 30px;  
+        }
+    
+        #contraseña{
+            color: black;
+            width: 50%;
+            height: 20px;
+            font-size: 12px;
+            font-family: "Cambria";
+            margin-left: 50px;
+            margin-top: 10px;  
+        }
+    
+        /*Botón Login*/
+        .bott-login{
+            display: flex;
+            width: 150px;
+            height: 25px;
+            background-color: blue;
+            border: 2px solid black;
+            margin-top: 40px;
+            margin: 50px;
+            justify-content: center;
+            cursor: pointer;
+            margin-bottom: 70px;
+        }
+    
+        .bott-login h2{
+            color: white;
+            font-size: 15px;
+            font-family: "Cambria";
+        }
+}

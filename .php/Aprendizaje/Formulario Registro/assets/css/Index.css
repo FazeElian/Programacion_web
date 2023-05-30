@@ -1,0 +1,313 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Cambria";
+    background-color: gray;
+}
+
+/*Encabezado - header*/
+.encabezado{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 25px;
+}
+
+    /*Nav Encabezado*/
+    .nav_encabezado{
+        display: flex;
+        justify-content: start;
+        list-style: none;
+    }
+
+    .nav_link a{
+        color: black;
+        text-decoration: none;
+    }
+
+    /*UL de menú - Inicio*/
+    .ul-menu{
+        display: flex;
+        list-style: none;
+        margin-left: 20px;
+    }
+
+    /*Item de lista UL*/
+    .nav-menu-item{
+        display: flex;
+        font-size: 20px;
+        margin: 10px 20px;
+        width: max-content; /*Alinea ancho a lo máximo para no cortar contenido*/
+    }
+
+    .nav-menu-link{
+        padding: 5px 10px;
+    }
+
+    .nav-menu-link:hover{
+        background-color: gray;
+        height: 35px;
+        cursor: pointer;
+    }
+
+    /*Nav Registro*/
+    .nav-registro{
+        display: flex;
+        justify-content: end;
+        list-style: none;
+    }
+
+    /*UL de menú - Registro*/
+    .ul-registro{
+        display: flex;
+        list-style: none;
+    }
+
+    /*Item de lista UL*/
+    .nav-menu-item-registro{
+        display: flex;
+        font-size: 20px;
+        margin: -43px 20px;
+    }
+
+    /*Icono Inicio*/
+    .icono-inicio{
+        display: none;
+        width: 35px;
+        height: 35px;  
+        margin-top: 4px;
+        margin-left: 15px;
+        border-radius: 0;
+        border: 0;
+        background-color: white;
+    }
+
+    .icono-inicio img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /*Icono Usuario*/
+    .icono-usuario{
+        display: none;
+        width: 35px;
+        height: 35px;  
+        margin-top: 4px;
+        margin-left: 15px;
+        border-radius: 0;
+        border: 0;
+        background-color: white;
+    }
+
+    .icono-usuario img{
+        width: 100%;
+        height: 100%;
+    }
+
+/*Contenido*/
+.contenido{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido h2{
+    color: black;
+    font-size: 40px;
+    font-family: "Cambria";
+}
+
+/*Pie de página - footer*/
+.pie_de_pagina{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 5px;
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+
+    /*Portafolio*/
+    .portafolio{
+        display: flex;
+        width: 50%;
+        height: 50%;
+        background-color: white;
+        border: 1px solid black;
+    }
+
+    .portafolio, .contacto li{
+        color: black;
+        font-size: 22px;
+        font-family: "Cambria";
+        padding: 5px;
+    }
+
+    /*contacto*/
+    .contacto{
+        display: flex;
+        width: 50%;
+        height: 50%;
+        background-color: white;
+        border: 1px solid black;
+    }
+
+/*@Media*/
+@media(max-width: 1024px){
+.encabezado{
+    width: 100%;
+    height: 47px;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 25px;
+    position: fixed;
+}
+
+    /*UL Menú*/
+    .ul-menu{
+        display: block;
+    }
+
+    .icono-inicio{
+        display: block;
+        width: 35px;
+        height: 35px;  
+        margin-top: 4px;
+        margin-left: 15px;
+        border-radius: 0;
+        border: 0;
+        background-color: white;
+    }
+
+    .icono-inicio img{
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+    }
+
+    /*Nav Menu*/
+    .ul-menu{
+        flex-direction: column;
+        background-color: whitesmoke;
+        border: 2px solid black;
+        position: fixed;
+        left: 10;
+        margin-top: 50px;
+        width: auto;
+        height: auto;
+        margin-left: 0px;
+        
+        height: calc(100% - 70px);
+        overflow-y: auto;
+
+        left: 0;
+        transition: left 0.3s;
+    }
+
+    .ul-menu{
+        flex-direction: column;
+        position: fixed;
+        left: -100%;
+    }
+
+    .nav-menu-item{
+        display: flex;
+        font-size: 15px;
+        margin: 10px 15px;
+        width: max-content; /*Alinea ancho a lo máximo para no cortar contenido*/
+    }
+
+    .nav-menu-link:hover{
+        background-color: gray;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    .nav-menu_visible{
+        left: 0;
+    }  
+
+    /*UL Registro*/
+    .ul-registro{
+        display: block;
+    }
+
+    /*Nav Registro*/
+    .ul-registro{
+        flex-direction: column;
+        background-color: whitesmoke;
+        border: 2px solid black;
+        position: fixed;
+        right: 10;
+        margin-top: 11px;
+        width: auto;
+        height: auto;
+        margin-left: 0px;
+        
+        height: calc(100% - 70px);
+        overflow-y: auto;
+
+        right: 0;
+        transition: right 0.3s;
+    }
+
+    .ul-registro{
+        flex-direction: column;
+        position: fixed;
+        right: -100%;
+    }
+
+    .nav-menu-item-registro{
+        display: flex;
+        font-size: 15px;
+        margin: 10px 15px;
+        width: max-content; /*Alinea ancho a lo máximo para no cortar contenido*/
+    }
+
+    .nav-menu-registro_visible{
+        right: 0;
+    }
+
+    /*Icono Usuario*/
+    .icono-usuario{
+        display: flex;
+        width: 35px;
+        height: 35px;  
+        margin-top: -36px;
+        margin-right: 15px;
+        cursor: pointer;
+    }
+
+    /*Pie de página*/
+    .pie_de_pagina{
+        display: flex;
+    }
+
+    .portafolio {
+        display: flex;
+        width: 100%;
+        height: 65px;
+        border: 1px solid black;
+        align-items: center;
+    }
+
+    .contacto {
+        display: flex;
+        width: 100%;
+        height: 65px;
+        border: 1px solid black;
+        align-items: center;
+    }
+}

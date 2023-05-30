@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Formulario Registro*/
+.form-registro{
+    position: fixed;
+    width: 50%;
+    height: auto;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 40px;
+    list-style: none;
+    left: 25%;
+}
+
+    /*Registrarse*/
+    .li-registro{
+        color: black;
+        font-size: 50px;
+        font-family: "Cambria";
+        margin: 50px;
+        margin-top: 70px;
+    }
+
+    /*Nombre*/
+    .li-nombre{
+        color: black;
+        font-size: 20px;
+        font-family: "Cambria";
+        margin-left: 50px;
+        margin-top: -30px; 
+    }
+
+    #nombre{
+        color: black;
+        width: 40%;
+        height: 25px;
+        font-size: 15px;
+        font-family: "Cambria";
+        margin-left: 50px;
+        margin-top: 10px;  
+    }
+
+    /*Apellido*/
+    .li-apellido{
+        color: black;
+        font-size: 20px;
+        font-family: "Cambria";
+        margin-left: 50px;
+        margin-top: 30px;  
+    }
+
+    #apellido{
+        color: black;
+        width: 40%;
+        height: 25px;
+        font-size: 15px;
+        font-family: "Cambria";
+        margin-left: 50px;
+        margin-top: 10px;  
+    }
+
+    /*Correo Electrónico*/
+    .li-correo{
+        color: black;
+        font-size: 20px;
+        font-family: "Cambria";
+        margin-left: 50px;
+        margin-top: 30px;  
+    }
+
+    #correo{
+        color: black;
+        width: 40%;
+        height: 25px;
+        font-size: 15px;
+        font-family: "Cambria";
+        margin-left: 50px;
+        margin-top: 10px; 
+    }
+
+    /*Nombre de Usuario*/
+    .li-usuario{
+        color: black;
+        font-size: 20px;
+        font-family: "Cambria";
+        margin-left: 50px;
+        margin-top: 30px;  
+    }
+
+    #usuario{
+        color: black;
+        width: 40%;
+        height: 25px;
+        font-size: 15px;
+        font-family: "Cambria";
+        margin-left: 50px;
+        margin-top: 10px; 
+    }
+
+    /*Contraseña*/
+    .li-contraseña{
+        color: black;
+        font-size: 20px;
+        font-family: "Cambria";
+        margin-left: 50px;
+        margin-top: 30px;  
+    }
+
+    #contraseña{
+        color: black;
+        width: 40%;
+        height: 25px;
+        font-size: 15px;
+        font-family: "Cambria";
+        margin-left: 50px;
+        margin-top: 10px; 
+    }
+
+    /*Botón Registro*/
+    .bott-registro{
+        display: flex;
+        width: 200px;
+        height: 30px;
+        background-color: blue;
+        border: 2px solid black;
+        margin-top: 40px;
+        margin: 50px;
+        margin-bottom: 90px;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .bott-registro h2{
+        color: white;
+        font-size: 20px;
+        font-family: "Cambria";
+    }
+
+/*@Media*/
