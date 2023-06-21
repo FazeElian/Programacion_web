@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Cambria";
+}
+
+body{
+    background-color: gray;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    border: 2px solid black;
+    list-style: none;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.menu li{
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.menu li:hover{
+    background-color: black;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.contenido{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+    list-style: none;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.formulario-register{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    border: 2px solid black;
+    background-color: white;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario-register h2{
+    display: flex;
+}
+
+#bott-registrarse{
+    width: 10%;
+    height: 30px;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.registros{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 20px;
+}
