@@ -20,7 +20,7 @@ namespace DatosPrimitivos
             Console.WriteLine("Hola, Mi nombre es: " + nombre + " Y tengo " + edad + " años" + " Y mi sueldo actual es de " + sueldo + " dólares");
             Console.WriteLine("");
             Console.WriteLine("Me encuentro casado?: " + casado);
-
+            
             Console.ReadKey();
         }
     }
