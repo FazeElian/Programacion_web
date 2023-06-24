@@ -1,0 +1,8 @@
+C:\Users\USUARIO\Desktop\PROGRAMACIÓN WEB\c#\Cursos\Udemy - Nivel Básico C#\Solución_Nivel_Básico_CSharp\PJ_HolaMundo\bin\Debug\PJ_HolaMundo.exe.config
+C:\Users\USUARIO\Desktop\PROGRAMACIÓN WEB\c#\Cursos\Udemy - Nivel Básico C#\Solución_Nivel_Básico_CSharp\PJ_HolaMundo\bin\Debug\PJ_HolaMundo.exe
+C:\Users\USUARIO\Desktop\PROGRAMACIÓN WEB\c#\Cursos\Udemy - Nivel Básico C#\Solución_Nivel_Básico_CSharp\PJ_HolaMundo\bin\Debug\PJ_HolaMundo.pdb
+C:\Users\USUARIO\Desktop\PROGRAMACIÓN WEB\c#\Cursos\Udemy - Nivel Básico C#\Solución_Nivel_Básico_CSharp\PJ_HolaMundo\obj\Debug\PJ_HolaMundo.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\PROGRAMACIÓN WEB\c#\Cursos\Udemy - Nivel Básico C#\Solución_Nivel_Básico_CSharp\PJ_HolaMundo\obj\Debug\PJ_HolaMundo.csproj.SuggestedBindingRedirects.cache
+C:\Users\USUARIO\Desktop\PROGRAMACIÓN WEB\c#\Cursos\Udemy - Nivel Básico C#\Solución_Nivel_Básico_CSharp\PJ_HolaMundo\obj\Debug\PJ_HolaMundo.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\PROGRAMACIÓN WEB\c#\Cursos\Udemy - Nivel Básico C#\Solución_Nivel_Básico_CSharp\PJ_HolaMundo\obj\Debug\PJ_HolaMundo.exe
+C:\Users\USUARIO\Desktop\PROGRAMACIÓN WEB\c#\Cursos\Udemy - Nivel Básico C#\Solución_Nivel_Básico_CSharp\PJ_HolaMundo\obj\Debug\PJ_HolaMundo.pdb

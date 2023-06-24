@@ -1,0 +1,8 @@
+C:\Users\USUARIO\Desktop\PROGRAMACIÓN WEB\c#\Cursos\Udemy - Nivel Básico C#\Solución_Nivel_Básico_CSharp\PJ_DatosPrimitivos\bin\Debug\PJ_DatosPrimitivos.exe.config
+C:\Users\USUARIO\Desktop\PROGRAMACIÓN WEB\c#\Cursos\Udemy - Nivel Básico C#\Solución_Nivel_Básico_CSharp\PJ_DatosPrimitivos\bin\Debug\PJ_DatosPrimitivos.exe
+C:\Users\USUARIO\Desktop\PROGRAMACIÓN WEB\c#\Cursos\Udemy - Nivel Básico C#\Solución_Nivel_Básico_CSharp\PJ_DatosPrimitivos\bin\Debug\PJ_DatosPrimitivos.pdb
+C:\Users\USUARIO\Desktop\PROGRAMACIÓN WEB\c#\Cursos\Udemy - Nivel Básico C#\Solución_Nivel_Básico_CSharp\PJ_DatosPrimitivos\obj\Debug\PJ_DatosPrimitivos.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\PROGRAMACIÓN WEB\c#\Cursos\Udemy - Nivel Básico C#\Solución_Nivel_Básico_CSharp\PJ_DatosPrimitivos\obj\Debug\PJ_DatosPrimitivos.csproj.SuggestedBindingRedirects.cache
+C:\Users\USUARIO\Desktop\PROGRAMACIÓN WEB\c#\Cursos\Udemy - Nivel Básico C#\Solución_Nivel_Básico_CSharp\PJ_DatosPrimitivos\obj\Debug\PJ_DatosPrimitivos.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\PROGRAMACIÓN WEB\c#\Cursos\Udemy - Nivel Básico C#\Solución_Nivel_Básico_CSharp\PJ_DatosPrimitivos\obj\Debug\PJ_DatosPrimitivos.exe
+C:\Users\USUARIO\Desktop\PROGRAMACIÓN WEB\c#\Cursos\Udemy - Nivel Básico C#\Solución_Nivel_Básico_CSharp\PJ_DatosPrimitivos\obj\Debug\PJ_DatosPrimitivos.pdb
